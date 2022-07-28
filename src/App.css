@@ -1,0 +1,22 @@
+
+body, *{
+  box-sizing: border-box;
+}
+.admin {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.main-loader{
+  background-color: #151515;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10vh;
+}

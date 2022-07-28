@@ -1,0 +1,19 @@
+.captions {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    right: 0px;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+    height: 30px;
+    background-color: #212529;
+    color: white;
+    align-items: center;
+}
+
+.captions * {
+    font-size: 22px;
+    margin-right: 12px;
+    cursor: pointer;
+}

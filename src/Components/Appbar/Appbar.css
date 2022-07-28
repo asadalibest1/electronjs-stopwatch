@@ -1,0 +1,29 @@
+.appbar-container {
+    position: absolute;
+    /* top: 30px; */
+    top: 0px;
+    width: 100%;
+    background-color: #212529;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.appbar-container .logout {
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    height: 43px;
+}
+
+.user-1 {
+    margin: 0px !important;
+    display: inline;
+    margin-right: 10px !important;
+    cursor: pointer;
+}
