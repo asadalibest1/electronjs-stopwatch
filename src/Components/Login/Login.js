@@ -70,7 +70,7 @@ const Login = ({ changeState }) => {
 
         <div class="loginBox">
             <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px" />
-            <h3>Sign in here</h3>
+            <h3>Sign</h3>
             <form action="" method="post" onSubmit={submit}>
                 <div class="inputBox">
                     <input id="uname" type="text" name="Username" onChange={(e) => setData({ ...Data, email: e.target.value })} placeholder="Username" required />
